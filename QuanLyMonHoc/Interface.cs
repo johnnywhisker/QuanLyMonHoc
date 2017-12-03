@@ -9,7 +9,6 @@ namespace QuanLyMonHoc
     class Interface
     {
         public static void showAllSubject() {
-
             Console.Clear();
             Console.WriteLine("Danh Sach Mon Hoc : ");
             foreach (Subject subject in Database.subjects) {
@@ -28,7 +27,6 @@ namespace QuanLyMonHoc
 
         public static void findSubject()
         {
-
             Console.Clear();
             int ammout = 0;
             Console.Write("Nhap vao thong tin can tim cua mon hoc (Neu la ngay nhap MM/DD/YYYY): ");
